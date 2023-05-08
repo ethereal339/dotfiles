@@ -5,7 +5,7 @@ config=$HOME/.config/hypr
 scripts=$config/scripts
 
 # notifications
-mako &
+dunst &
 
 # waybar
 $scripts/launch_waybar &
